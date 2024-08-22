@@ -4,7 +4,7 @@ var accountPassword = "34412"
 accountCity = "Barasat"
 //try not to use var 
 let accountState;
-//accountId=2 // it is not allowed to change const variable as we are using nodejs not browser
+//accountId=2 // it is not allowed 
 accountEmail="nomoney@gmail.com"
 accountPassword="12345"
 accountCity ="Midnpore"
