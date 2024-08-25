@@ -18,4 +18,4 @@ let someNumber = 0
 let numberInString = String(someNumber)
 console.log(typeof numberInString)
 console.log(numberInString)
-
+console.log("som")
