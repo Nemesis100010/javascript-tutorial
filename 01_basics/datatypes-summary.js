@@ -19,6 +19,24 @@ console.log(typeof myObj);//object
 console.log(typeof ousideTemp);//object 
 console.log(typeof heros);//object
 
+// stack (primitive)
+let myFavsub = "physics"
+let anothersub = myFavsub
+anothersub = "chemistry"
+console.log(anothersub); // stack memory copies the value of variable
+console.log(myFavsub);   // don't change the original value
+
+//heap(non-premitive)
+let userOne = {
+    email : "user1@gmail.com",
+    upi : "user1@ybl"
+}
+let userTwo = userOne
+userTwo.email = "user2@gmail.com"
+console.log(userOne.email); // here the original value changed because in heap 
+// memory two objects have same reference
+
+
 
 
 
