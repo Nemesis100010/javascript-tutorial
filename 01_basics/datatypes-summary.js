@@ -2,7 +2,6 @@
 //7 types : String , Number , Boolean , null , undefined, Symbol, BigInt
 //Reference (non-primitive)
 //Array, objects, functions
-//Array 
 const ousideTemp = null
 const bigNumber = 347658955456345n
 const heros = ["Saktiman","naagraj","doga"];
